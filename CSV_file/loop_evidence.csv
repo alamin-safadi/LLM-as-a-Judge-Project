@@ -1,0 +1,9 @@
+Evidence,Value,Available,Interpretation
+Human-grounded accuracy,0.2727272727272727,True,Validity against human reference
+Decision repeatability,1.0,True,Consistency across deterministic repeated runs
+Mean score SD,2.044220172325685e-16,True,Numerical score stability
+Mean score range,0.0,True,Numerical score variation
+Mean confidence,95.0,True,Reported judge confidence
+Brier score,0.67875,True,Human-grounded confidence calibration
+Before/After exact agreement change,0.8375,True,Change in repeatability
+Before/After position consistency change,,False,Change in position consistency

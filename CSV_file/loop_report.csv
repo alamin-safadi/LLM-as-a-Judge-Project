@@ -1,0 +1,2 @@
+re_evaluation_completed,post_update_reliability_completed,human_grounded_accuracy_available,human_grounded_accuracy,decision_repeatability,mean_score_sd,mean_score_range,mean_confidence,human_grounded_brier_score,evidence_state,loop_decision
+True,True,True,0.2727272727272727,1.0,2.044220172325685e-16,0.0,95.0,0.67875,DIRECTIONALLY_IMPROVED,CANDIDATE_FOR_RETENTION

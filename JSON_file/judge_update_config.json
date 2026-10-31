@@ -1,0 +1,41 @@
+{
+  "module": "Evidence-Based Judge Update",
+  "updated_rubric": {
+    "Correctness": "Evaluate factual accuracy, logical validity, and whether the answer reaches the correct conclusion.",
+    "Relevance": "Evaluate whether the answer directly addresses the question without unnecessary or unrelated content.",
+    "Clarity": "Evaluate whether the answer is clear, understandable, well structured, and logically presented.",
+    "Completeness": "Evaluate whether the answer satisfies the important requirements of the question.",
+    "Instruction Following": "Check whether the answer follows all explicit instructions and constraints.",
+    "Position Neutrality": "Evaluate each answer independently of whether it appears as Answer A or Answer B.",
+    "Verbosity Neutrality": "Do not reward or penalize an answer merely for being longer or shorter. Additional detail should improve the answer only when relevant, correct, and useful.",
+    "Evidence Based Decision": "Base the final decision on the strongest evidence from the rubric rather than superficial features."
+  },
+  "reasoning_strategy": [
+    "Understand the question and explicit requirements.",
+    "Evaluate Answer A independently.",
+    "Evaluate Answer B independently.",
+    "Check factual and logical correctness.",
+    "Check relevance and completeness.",
+    "Check instruction following.",
+    "Compare the strongest evidence for A and B.",
+    "Check whether position affects the judgment.",
+    "Check whether length affects the judgment without adding value.",
+    "Verify that the final decision is supported by the evaluation.",
+    "Assign confidence according to the strength and consistency of evidence.",
+    "Return the final decision in the required format."
+  ],
+  "update_evidence": {
+    "initial_human_accuracy": 27.500000000000004,
+    "revised_self_critique_accuracy": 7.5,
+    "updated_judge_accuracy": 26.027397260273972,
+    "self_critique_fixed_errors": 1,
+    "self_critique_introduced_errors": 17,
+    "position_sensitive_cases": 52,
+    "verbosity_preference_cases": 65,
+    "high_confidence_errors": 10
+  },
+  "decision_rule": "Choose the answer with the higher mean of the five core rubric scores; choose TIE only when the two mean scores are equal.",
+  "position_policy": "Position sensitivity is treated as diagnostic evidence, not as an automatic bias penalty.",
+  "verbosity_policy": "Verbosity preference is treated as diagnostic evidence, not as an automatic bias penalty.",
+  "confidence_policy": "Confidence is evaluated against human-grounded correctness."
+}

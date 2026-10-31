@@ -1,0 +1,13 @@
+Metric,Value
+Total Questions,80.0
+Explicit Decisions,76.0
+Score-rule Fallback Decisions,1.0
+Missing Decisions,3.0
+Decision Validity Rate,96.25
+Human-Grounded Coverage,96.25
+Human-Grounded Accuracy,27.27272727272727
+Original Judge Accuracy,27.500000000000004
+Accuracy Change,-1.2500000000000036
+Errors Fixed,14.0
+Errors Introduced,15.0
+Brier Score,0.67875

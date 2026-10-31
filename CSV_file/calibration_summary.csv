@@ -1,0 +1,15 @@
+Metric,Value
+Total Calibration Cases,80.0
+Human-Grounded Cases,17.0
+Human-Judge Accuracy (%),29.411764705882355
+Mean Confidence,88.82352941176471
+Mean Confidence-Accuracy Gap,59.411764705882355
+Mean Absolute Calibration Error,70.0
+Brier Score,0.6652941176470588
+Initial Decision Accuracy (%),29.72972972972973
+Revised Decision Accuracy (%),33.33333333333333
+Decision Change Count,2.0
+High-Confidence Errors,10.0
+Reliability Instability Cases,40.0
+Position Sensitivity Cases,52.0
+Verbosity Sensitivity Cases,65.0

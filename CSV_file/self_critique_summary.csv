@@ -1,0 +1,14 @@
+Metric,Value
+Total Cases,80.0
+Valid Cases,10.0
+Invalid / Incomplete Cases,70.0
+Validity Rate (%),12.5
+Decision Changes,2.0
+Decision Change Rate (%),20.0
+Reported Error Signals,50.0
+Reported Error Signal Rate (%),62.5
+Reported Bias Signals,49.0
+Reported Bias Signal Rate (%),61.25000000000001
+Valid Confidence Values,17.0
+Mean Confidence,88.82352941176471
+Median Confidence,100.0

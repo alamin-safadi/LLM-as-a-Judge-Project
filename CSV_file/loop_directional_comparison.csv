@@ -1,0 +1,4 @@
+Metric,Before,After,Change,Outcome
+Exact Agreement,0.125,0.9625,0.8375,Improved
+Average Score SD,1.377493856426254,2.0442201723256852e-16,-1.3774938564262538,Improved
+Average Score Range,3.1050632911392406,0.0,-3.1050632911392406,Improved

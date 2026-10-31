@@ -1,0 +1,12 @@
+Metric,Value
+human_accuracy,29.411764705882355
+mean_confidence,88.82352941176471
+mean_calibration_gap,59.411764705882355
+mean_absolute_calibration_error,70.0
+brier_score,0.6652941176470588
+high_confidence_error_count,10.0
+self_critique_decision_changes,2.0
+self_critique_decision_change_accuracy,50.0
+reliability_instability_cases,40.0
+position_sensitivity_cases,52.0
+verbosity_sensitivity_cases,65.0

@@ -1,0 +1,11 @@
+Metric,Value
+Human-Judge Agreement,26.08695652173913
+Decision Coverage,90.0
+Strict Repeated Decision Agreement,12.5
+Mean Score SD,1.4546499644455495
+Mean Score Range,3.3175000000000003
+Position Consistency,30.666666666666664
+Mean Confidence,95.0
+Human-grounded Accuracy,50.0
+Brier Score,0.4525
+ECE,0.44999999999999996
